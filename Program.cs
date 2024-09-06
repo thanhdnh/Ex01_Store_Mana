@@ -1,4 +1,5 @@
-﻿public class Program
+﻿//https://github.com/thanhdnh/Ex01_Store_Mana
+public class Program
 {
     public static void PrintComputers(List<Computer> computers){
         foreach(Computer computer in computers)
@@ -16,7 +17,7 @@
         "black", "Vietnam", "LG", 27000000, 17,
         12, true));
         PrintComputers(store.computers);
-        
+
         Console.ReadKey();
     }
 }
